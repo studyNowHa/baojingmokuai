@@ -1,0 +1,22 @@
+The 'Blinky' project is a simple demo program for the
+GigaDevice 'GD32F32150C8' microcontroller using 'GD321x0C-START' evaluation board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+Example functionality:
+ - Clock Settings:
+   - XTAL    =     8.00 MHz
+   - SYSCLK  =    72.00 MHz
+
+ - 2 LEDs blink with a fixed speed, determined by SysTick Timer
+     working in interrupt mode.
+ - if Button 'User Key' is pressed all LEDs are lit.
+
+
+
+The Blinky program is available in different targets:
+
+  GD32F150C8 Flash:    configured for on-chip Flash
+                       (used for production or target debugging)
+
+  GD32F150C8 RAM:      configured for on-chip RAM
+                       (used for target debugging)

@@ -1,0 +1,16 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Audio module.PrjPcb|ReportField=ProjectFullPath~F:\YY0709-2009报警模块\Audio module schematic v1.0\Audio module.PrjPcb|ReportField=Title~Bill of Materials For Project [Audio module.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~34|ReportField=ReportTime~13:48:58|ReportField=ReportDate~2018/10/18|ReportField=ReportDateTime~2018/10/18 13:48:58|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/10/18|ReportField=CurrentTime~13:48:47|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\YY0709-2009报警模块\Audio module schematic v1.0\Audio module.SchDoc|ReportField=DocumentName~Audio module.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2018/10/18|ReportField=Organization~|ReportField=ProjectName~Audio module.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Audio module.PrjPcb|ReportField=DataSourceFullPath~F:\YY0709-2009报警模块\Audio module schematic v1.0\Audio module.PrjPcb
+Cap|无极性电容|C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11|0603-2|Cap|11
+RED_LED||D1|RES_0603|LED|1
+YELLOW_LED||D2|RES_0603|LED|1
+BLUE_LED||D3|RES_0603|LED|1
+Inductor|电感|L1|0805-1|Inductor|1
+Header6||P1|HDR6X1_A|Header6|1
+PZ-1*2||P2|HDR2X1_A|PZ-1*2|1
+PZ-1*4||P3|HDR4X1_A|PZ-1*4|1
+AP2306|N-MOSFET1|Q1, Q2|SOT-23|MOSFET-N1|2
+10K|贴片电阻|R1, R2, R5, R6, R7, R8|RES-0603|Res1|6
+Res1|贴片电阻|R3, R4|0603-1|Res1|2
+RES||R9, R10, R11|RES_0603|RES|3
+AS1117-3.3|AS1117|U1|SOT-223|AS1117|1
+GD32F150G4U6||U2|QFN28-1|GD32F150G4U6|1
+E8002A||U3|SOP-8|E8002A|1

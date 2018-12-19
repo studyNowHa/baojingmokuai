@@ -1,0 +1,6 @@
+Remove Pin=U2-4 From Net=NRST
+Remove Pin=U2-8 From Net=TXD
+Remove Pin=U2-9 From Net=RXD
+Remove Pin=U2-10 From Net=DA
+Remove Pin=U2-21 From Net=SWIO
+Remove Pin=U2-22 From Net=SWCLK

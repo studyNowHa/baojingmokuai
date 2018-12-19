@@ -1,0 +1,110 @@
+void  Audio_play(void)       
+{
+    /* Configure System Clocks */
+    RCC_Configuration();
+         /* NVIC configuration */
+    NVIC_Configuration();
+    /*Configure GPIO ports */
+    GPIO_Configuration();
+    /* Configure DAC */
+          TIMER_Configuration();
+          /*TIME Configuration*/
+    DAC_Configuration();
+          DACDMAConfig();
+    /* Start DAC1 conversion by software */
+    //DAC_SoftwareTrigger_Enable(DAC1,ENABLE);
+          Delay_1ms(3000);         
+}
+void RCC_Configuration(void)
+{   
+    /* GPIOA Periph clock enable */
+    RCC_AHBPeriphClock_Enable(RCC_AHBPERIPH_GPIOA, ENABLE);
+    /* DAC Periph clock enable */
+    RCC_APB1PeriphClock_Enable(RCC_APB1PERIPH_DAC, ENABLE);
+}
+void NVIC_Configuration(void)
+{
+    NVIC_InitPara NVIC_InitStructure;
+
+    /* Enable DMA1 IRQ Channel */
+    NVIC_InitStructure.NVIC_IRQ = DMA1_Channel1_IRQn;
+    NVIC_InitStructure.NVIC_IRQPreemptPriority = 0;
+    NVIC_InitStructure.NVIC_IRQSubPriority = 0;
+    NVIC_InitStructure.NVIC_IRQEnable = ENABLE;
+    NVIC_Init(&NVIC_InitStructure);  
+    NVIC_InitStructure.NVIC_IRQ = DMA1_Channel2_3_IRQn;
+    NVIC_Init(&NVIC_InitStructure);  
+    NVIC_InitStructure.NVIC_IRQ = DMA1_Channel4_5_IRQn;
+    NVIC_Init(&NVIC_InitStructure);  
+    NVIC_InitStructure.NVIC_IRQ = DMA1_Channel6_7_IRQn;
+    NVIC_Init(&NVIC_InitStructure);  
+}
+void GPIO_Configuration(void)
+{
+    GPIO_InitPara GPIO_InitStructure;       
+            /* GPIOA Periph clock enable */
+    RCC_AHBPeriphClock_Enable(RCC_AHBPERIPH_GPIOA, ENABLE);
+    GPIO_InitStructure.GPIO_Pin =  GPIO_PIN_4;
+    GPIO_InitStructure.GPIO_Mode = GPIO_MODE_AN;
+    GPIO_Init(GPIOA, &GPIO_InitStructure);
+}
+void TIMER_Configuration(void)
+{
+    TIMER_BaseInitPara TIMER_TimeBaseStructure;
+    //TIMER_OCInitPara  TIMER_OCInitStructure;  //not used now,qilei
+    /* TIMERS clock enable */
+    RCC_APB2PeriphClock_Enable(RCC_APB2PERIPH_TIMER1|RCC_APB2PERIPH_TIMER15|RCC_APB2PERIPH_TIMER16|RCC_APB2PERIPH_TIMER17,ENABLE);
+    RCC_APB1PeriphClock_Enable(RCC_APB1PERIPH_TIMER2|RCC_APB1PERIPH_TIMER3|RCC_APB1PERIPH_TIMER6|RCC_APB1PERIPH_TIMER14,ENABLE);
+
+    /* TIMER1  configuration */
+    TIMER_DeInit(TIMER6);
+    TIMER_TimeBaseStructure.TIMER_Prescaler         = 1;
+    TIMER_TimeBaseStructure.TIMER_CounterMode       = TIMER_COUNTER_UP;
+    TIMER_TimeBaseStructure.TIMER_Period            = 0x8D0;
+    TIMER_TimeBaseStructure.TIMER_ClockDivision     = TIMER_CDIV_DIV1;  //0
+    //TIMER_TimeBaseStructure.TIMER_RepetitionCounter = 1;
+    TIMER_BaseInit(TIMER6,&TIMER_TimeBaseStructure);
+    /* TIMER1 Update DMA Request enable */
+    TIMER_DMACmd( TIMER6, TIMER_DMA_UPDATE, ENABLE);                               
+  TIMER_SelectOutputTrigger(TIMER6,TIMER_TRI_OUT_SRC_UPDATE);
+    /* TIMER enable counter*/
+    TIMER_Enable( TIMER6, ENABLE );
+}
+void DAC_Configuration(void)
+{   
+    DAC_InitPara   DAC_InitStructure;
+    DAC_InitStructure.DAC_Trigger = DAC_TRIGGER_T6_TRGO;
+    DAC_InitStructure.DAC_OutputBuffer = DAC_OUTPUTBUFFER_DISABLE;
+    DAC_Init(DAC1,&DAC_InitStructure);
+    /* Enable DAC1 */
+    DAC_Enable(DAC1,ENABLE);
+    /* Set DAC1_L8DHR register */
+    DAC_SetDAC1Data(DAC_ALIGN_8B_R, 0x7FF0);
+    DAC_DMA_Enable(DAC1,ENABLE);
+}
+void DACDMAConfig(void)
+{
+        DMA_InitPara  DMA_InitStructure;
+        RCC_AHBPeriphClock_Enable(RCC_AHBPERIPH_DMA1, ENABLE);  //??DMA¨º¡À?¨®
+       
+        /* DMA channel3 configuration **************************************/
+        DMA_DeInit(DMA1_CHANNEL3);
+       
+        //DMA_InitStructure.DMA_Channel = DMA_Channel_7;  
+        DMA_InitStructure.DMA_PeripheralBaseAddr = (uint32_t)DAC1_R8DHR_ADDRESS; //DAC_DHR12R2_ADDRESS;
+        DMA_InitStructure.DMA_MemoryBaseAddr = (uint32_t)&data; //wavedata2; //(uint32_t)&Sine12bit;
+        DMA_InitStructure.DMA_DIR = DMA_DIR_PERIPHERALSRC;//DMA_DIR_MemoryToPeripheral;
+        DMA_InitStructure.DMA_BufferSize = sizeof(data); //8294 - 46; //6030 - 46; //32;
+        DMA_InitStructure.DMA_PeripheralInc = DMA_PERIPHERALINC_DISABLE;//DMA_PeripheralInc_Disable;
+        DMA_InitStructure.DMA_MemoryInc = DMA_MEMORYINC_ENABLE;
+        DMA_InitStructure.DMA_PeripheralDataSize = DMA_PERIPHERALDATASIZE_BYTE;//DMA_PeripheralDataSize_HalfWord;
+        DMA_InitStructure.DMA_MemoryDataSize = DMA_MEMORYDATASIZE_BYTE; //DMA_MemoryDataSize_HalfWord;
+        DMA_InitStructure.DMA_Mode = DMA_MODE_CIRCULAR;//comfirm,DMA_Mode_Circular;
+        DMA_InitStructure.DMA_Priority = DMA_PRIORITY_HIGH; //confirm,DMA_Priority_High;       
+        DMA_InitStructure.DMA_MTOM = DMA_MEMTOMEM_DISABLE;
+        DMA_Init(DMA1_CHANNEL3, &DMA_InitStructure);
+       
+  DAC_DMA_Enable(DAC1, ENABLE);
+  DAC_INTConfig(DAC1, ENABLE);
+  DMA_Enable(DMA1_CHANNEL3, ENABLE);
+}

@@ -1,0 +1,284 @@
+Dependencies for Project 'Audio Module', Target 'AudioModule_Debug': (DO NOT MODIFY !)
+F (..\apps\src\main.c)(0x5C0DF534)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+I (..\bsp\inc\Driver.h)(0x5BE1B49C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\apps\inc\SG.h)(0x5BE809F8)
+F (..\apps\src\SG.c)(0x5BFE5CDF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\sg.o --omf_browse ..\output\sg.crf --depend ..\output\sg.d)
+I (..\apps\inc\SG.h)(0x5BE809F8)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+I (..\bsp\inc\Driver.h)(0x5BE1B49C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (..\bsp\src\Driver.c)(0x5BE7F698)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\driver.o --omf_browse ..\output\driver.crf --depend ..\output\driver.d)
+I (..\bsp\inc\Driver.h)(0x5BE1B49C)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\apps\inc\SG.h)(0x5BE809F8)
+F (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)()
+F (..\hardware\GD32F1X0\CMSIS\Source\gd32f1x0_it.c)(0x5BD9B8FF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_it.o --omf_browse ..\output\gd32f1x0_it.crf --depend ..\output\gd32f1x0_it.d)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_it.h)(0x5BD9B90A)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\CMSIS\Source\system_gd32f1x0.c)(0x5BD91495)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\system_gd32f1x0.o --omf_browse ..\output\system_gd32f1x0.crf --depend ..\output\system_gd32f1x0.d)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_dac.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_dac.o --omf_browse ..\output\gd32f1x0_dac.crf --depend ..\output\gd32f1x0_dac.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_dbg.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_dbg.o --omf_browse ..\output\gd32f1x0_dbg.crf --depend ..\output\gd32f1x0_dbg.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_dma.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_dma.o --omf_browse ..\output\gd32f1x0_dma.crf --depend ..\output\gd32f1x0_dma.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_fwdgt.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_fwdgt.o --omf_browse ..\output\gd32f1x0_fwdgt.crf --depend ..\output\gd32f1x0_fwdgt.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_gpio.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_gpio.o --omf_browse ..\output\gd32f1x0_gpio.crf --depend ..\output\gd32f1x0_gpio.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_rcu.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_rcu.o --omf_browse ..\output\gd32f1x0_rcu.crf --depend ..\output\gd32f1x0_rcu.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_syscfg.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_syscfg.o --omf_browse ..\output\gd32f1x0_syscfg.crf --depend ..\output\gd32f1x0_syscfg.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_timer.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_timer.o --omf_browse ..\output\gd32f1x0_timer.crf --depend ..\output\gd32f1x0_timer.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_usart.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_usart.o --omf_browse ..\output\gd32f1x0_usart.crf --depend ..\output\gd32f1x0_usart.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Library\Source\gd32f1x0_misc.c)(0x5A7BB100)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork -I ..\apps\inc -I ..\bsp\inc -I ..\hardware\GD32F1X0\CMSIS\Core -I ..\hardware\GD32F1X0\CMSIS\Include -I ..\hardware\GD32F1X0\Library\Include-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER-o ..\output\gd32f1x0_misc.o --omf_browse ..\output\gd32f1x0_misc.crf --depend ..\output\gd32f1x0_misc.d)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_misc.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cm3.h)(0x5A7BB100)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmInstr.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Core\core_cmFunc.h)(0x547D9682)
+I (..\hardware\GD32F1X0\CMSIS\Include\system_gd32f1x0.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\CMSIS\Include\gd32f1x0_libopt.h)(0x5BD90BD0)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dac.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dbg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_dma.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_gpio.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_syscfg.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_fwdgt.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_rcu.h)(0x5A7BB100)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_timer.h)(0x5BD74C7E)
+I (..\hardware\GD32F1X0\Library\Include\gd32f1x0_usart.h)(0x5A7BB100)
+F (..\hardware\GD32F1X0\Startup\ARM\GD32F150G8\startup_gd32f1x0.s)(0x5A7AAF7A)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "F:\YY0709-2009报警模块\程序\四版\Audio Module\project\RTE"-I d:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.1.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "GD32F1x0 SETA 1" --pd "GD32F130_150 SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\flash\startup_gd32f1x0.lst --xref -o ..\output\startup_gd32f1x0.o --depend ..\output\startup_gd32f1x0.d)
+F (..\doc\Readme.txt)(0x5BD9038A)()

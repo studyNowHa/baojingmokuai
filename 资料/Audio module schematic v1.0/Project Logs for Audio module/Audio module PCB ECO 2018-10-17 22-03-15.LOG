@@ -1,0 +1,8 @@
+Change Component DesignItemId : Designator=Q1 Old DesignItemId=MOSFET-N New DesignItemId=MOSFET-N1
+Change Component DesignItemId : Designator=Q2 Old DesignItemId=MOSFET-N New DesignItemId=MOSFET-N1
+Change Component Description : Designator=Q1 Old Description=N-Channel MOSFET New Description=N-MOSFET1
+Change Component Description : Designator=Q2 Old Description=N-Channel MOSFET New Description=N-MOSFET1
+Added Pin To Net: NetName=TXD Pin=Q1-2
+Added Pin To Net: NetName=TX Pin=Q1-3
+Added Pin To Net: NetName=RXD Pin=Q2-2
+Added Pin To Net: NetName=RX Pin=Q2-3

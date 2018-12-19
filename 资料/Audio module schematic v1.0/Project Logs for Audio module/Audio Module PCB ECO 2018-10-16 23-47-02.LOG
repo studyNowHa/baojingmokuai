@@ -1,0 +1,12 @@
+Added Component: Designator=U2(QFN28)
+Added Pin To Net: NetName=NetR1_1 Pin=U2-1
+Added Pin To Net: NetName=NRST Pin=U2-4
+Added Pin To Net: NetName=A3V3 Pin=U2-5
+Added Pin To Net: NetName=TXD Pin=U2-8
+Added Pin To Net: NetName=RXD Pin=U2-9
+Added Pin To Net: NetName=DA Pin=U2-10
+Added Pin To Net: NetName=D3V3 Pin=U2-16
+Added Pin To Net: NetName=SWIO Pin=U2-21
+Added Pin To Net: NetName=SWCLK Pin=U2-22
+Added Member To Class: ClassName=Audio module Member=Component U2 GD32F150G4U6
+Added Room: Name=Audio module

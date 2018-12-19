@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+"..\output\main.o"
+"..\output\sg.o"
+"..\output\driver.o"
+"..\output\gd32f1x0_it.o"
+"..\output\system_gd32f1x0.o"
+"..\output\gd32f1x0_dac.o"
+"..\output\gd32f1x0_dbg.o"
+"..\output\gd32f1x0_dma.o"
+"..\output\gd32f1x0_fwdgt.o"
+"..\output\gd32f1x0_gpio.o"
+"..\output\gd32f1x0_rcu.o"
+"..\output\gd32f1x0_syscfg.o"
+"..\output\gd32f1x0_timer.o"
+"..\output\gd32f1x0_usart.o"
+"..\output\gd32f1x0_misc.o"
+"..\output\startup_gd32f1x0.o"
+--library_type=microlib --strict --scatter "..\output\Audio Module.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Audio Module.map" -o "..\output\Audio Module.axf"
